@@ -12,7 +12,7 @@ Sorted List Implementation Using AVL Tree Data Structure
     
     var avlSortedList = require('avl-sorted-list');
     var list = avlSortedList(function(a, b){
-        return b - a;
+        return a - b;
     });
 
 #### Insert Element
