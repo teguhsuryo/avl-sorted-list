@@ -4,7 +4,7 @@ Sorted List Implementation Using AVL Tree Data Structure
 
 ## Installation
 
-npm install avl-sorted-list
+    npm install avl-sorted-list
 
 ## Usage
 
