@@ -1,7 +1,10 @@
-/* 	AVL Tree Implementation 
-	Teguh Suryo Santoso
-	19-08-2017
-*/
+/* 	
+ * AVL Tree Implementation 
+ * Teguh Suryo Santoso
+ * 19-08-2017
+ */
+
+'use strict';
 
 function createNewNode_(key) {
 	return {
@@ -51,7 +54,7 @@ function rotateRight_(p) {
 }
 
 function rotateLeft_(q) {
-	p = q.right;
+	var p = q.right;
 	q.right = p.left;
 	p.left = q;
 	countHeightAndWeight_(q);
@@ -138,7 +141,7 @@ function remove_(p, k) {
 	else {
 		var q = p.left;
 		var r = p.right;
-		delete p;
+		//delete p;
 		if(!r) return q;
 		
 		var min = getMinimum_(r);

@@ -1,0 +1,35 @@
+{
+  "name": "avl-sorted-list",
+  "version": "0.0.1",
+  "description": "Sorted List Implementation Using AVL Tree Data Structure",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha --reporter spec"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/teguhsuryo/avl-sorted-list.git"
+  },
+  "keywords": [
+    "sorted",
+    "list",
+    "avl",
+    "balanced",
+    "binary",
+    "search",
+    "tree"
+  ],
+  "author": "Teguh Suryo Santoso <teguh.suryo@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/teguhsuryo/avl-sorted-list/issues"
+  },
+  "homepage": "https://github.com/teguhsuryo/avl-sorted-list#readme",
+  "devDependencies": {
+    "chai": "^4.1.1",
+    "mocha": "^3.5.0"
+  },
+  "engines": {
+     "node": ">=6.10.0"
+  }
+}
